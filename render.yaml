@@ -6,4 +6,4 @@ services:
     startCommand: python app.py
     envVars:
       - key: DATABASE_URL
-        value: postgresql://postgres:postgres@localhost/bd_autos
+        value: postgresql://bd_autos_user:0tyfpzfU3zuGum7BKBAz3nfndgBrWlan@dpg-d0vs10jipnbc73880300-a/bd_autos
