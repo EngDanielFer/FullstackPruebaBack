@@ -79,4 +79,5 @@ def delete_auto(id_auto):
     return jsonify({"mensaje": f"Auto con ID {id_auto} eliminado"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
